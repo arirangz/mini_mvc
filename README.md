@@ -2,12 +2,13 @@
 ## Installation
 * Créez une base de données et importez mini_website.sql.
 * Dupliquer le fichier .env.example en .env et le modifier pour mettre les données de votre base de données.
-* Mettre à jour le menu
 
 ## A faire: 
 ### Gérer une page à propos
 * Créer un nouveau fichier templates/page/about.php avec header, footer and a h1 about
 * Adapter le PageController.php pour gérer cette page
+* Mettre à jour le menu pour ajouter la page A propos
+
 ##  Gérer une page listant tous les articles (stockés en bdd)
 * Vous devez créer Article.php (entity) en vous basant sur ce qui a été fait dans User.php
 * Vous devez créer ArticleRepository.php et à l'intérieur, ajouter une méthode avec une requête pour récupérer tous les articles.
